@@ -1,0 +1,41 @@
+# Rust
+/target/
+**/target/
+
+# Backups
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDEs
+.idea/
+.vscode/
+nbproject/private/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos locais de teste
+*.local
+.env
+.env.*
+!.env.example
+
+# Material sensível
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Dumps
+*.dump
+*.sql.gz
+.github/workflows/ci.yml

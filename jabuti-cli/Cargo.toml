@@ -1,0 +1,18 @@
+[package]
+name = "jabuti-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "jabuti"
+path = "src/main.rs"
+
+[dependencies]
+clap.workspace = true
+jabuti-core = { path = "../jabuti-core" }
+jabuti-cofre-sistema = { path = "../jabuti-cofre-sistema" }
+serde_json.workspace = true
+uuid.workspace = true
+zeroize.workspace = true
